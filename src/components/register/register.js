@@ -47,6 +47,8 @@ const Register = ({ handleRegister }) => {
                 <input type="text" placeholder="country" value={country} onChange={(e) => setCountry(e.target.value)} required />
 
                 <button type="submit">Register</button>
+                <p>Already registered?<a href="/login">Login</a></p>
+
             </form>
         </div>
     );
