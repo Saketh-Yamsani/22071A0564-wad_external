@@ -1,0 +1,11 @@
+.contact-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-container h2 {
+    margin-bottom: 10px;
+}

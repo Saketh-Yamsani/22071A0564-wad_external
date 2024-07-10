@@ -1,0 +1,17 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
