@@ -24,9 +24,7 @@ const Catalog = ({ addToCart }) => {
                 <h5 className="card-title">{product.name}</h5>
                 <p className="card-text flex-grow-1">{product.description}</p>
                 <p className="card-text">${product.price}</p>
-                <button className="btn btn-dark mt-auto" onClick={() => addToCart(product)}>
-                  <Link className="nav-link" to="/cart">Add to Cart</Link>
-                </button>
+                <button className="btn btn-dark mt-auto" onClick={() => addToCart(product)}><Link className="nav-link" to="/cart">Add to Cart</Link></button>
               </div>
             </div>
           </div>
